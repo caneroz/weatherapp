@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+    <string name="please_allow_location">Please allow location services for this app to work.</string>
+    <string name="please_open_location_settings">Please open location settings for this app to work</string>
+    <string name="location_not_available">Location is not available</string>
+    <string name="temperature"><b>%d</b> \u2109</string>
+    <string name="apparent_temperature"><b>Apparent Temperature:</b></string>
+    <string name="humidity"><b>Humidity:</b></string>
+    <string name="wind_speed"><b>Wind Speed:</b></string>
+    <string name="precip_probability"><b>Precip Probability:</b></string>
+    <string name="apparent_temperature_value">%d \u2109</string>
+    <string name="humidity_value">%d%%</string>
+    <string name="wind_speed_value">%d km/h</string>
+    <string name="precip_probability_value">%d%%</string>
+    <string name="action_refresh">Refresh</string>
+
+</resources>

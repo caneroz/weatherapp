@@ -1,0 +1,2 @@
+include ':app',':SkyconsLibrary'
+rootProject.name = "WeatherApp"

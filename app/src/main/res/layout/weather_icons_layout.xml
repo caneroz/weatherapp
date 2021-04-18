@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.thbs.skycons.library.SunView
+        android:id="@+id/view_clear_day"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        app:bgColor="#ffffff"
+        app:isStatic="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#f9d71c"
+        tools:visibility="visible" />
+
+    <com.thbs.skycons.library.MoonView
+        android:id="@+id/view_clear_night"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        app:bgColor="#ffffff"
+        app:isStatic="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#000000" />
+
+    <com.thbs.skycons.library.CloudSunView
+        android:id="@+id/view_partly_cloudy_day"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        app:bgColor="#ffffff"
+        app:isStatic="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#000000" />
+
+    <com.thbs.skycons.library.CloudMoonView
+        android:id="@+id/view_partly_cloudy_night"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        app:bgColor="#ffffff"
+        app:isStatic="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#000000" />
+
+    <com.thbs.skycons.library.CloudView
+        android:id="@+id/view_cloudy"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        app:bgColor="#ffffff"
+        app:isStatic="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#000000" />
+
+    <com.thbs.skycons.library.CloudRainView
+        android:id="@+id/view_rain"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        app:bgColor="#ffffff"
+        app:isStatic="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#000000" />
+
+    <com.thbs.skycons.library.CloudHvRainView
+        android:id="@+id/view_sleet"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        app:bgColor="#ffffff"
+        app:isStatic="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#000000" />
+
+    <com.thbs.skycons.library.CloudSnowView
+        android:id="@+id/view_snow"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        app:bgColor="#ffffff"
+        app:isStatic="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#000000" />
+
+    <com.thbs.skycons.library.WindView
+        android:id="@+id/view_wind"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        app:bgColor="#ffffff"
+        app:isStatic="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#000000" />
+
+    <com.thbs.skycons.library.CloudFogView
+        android:id="@+id/view_fog"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:visibility="gone"
+        app:bgColor="#ffffff"
+        app:isStatic="false"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:strokeColor="#000000" />
+
+</RelativeLayout>
